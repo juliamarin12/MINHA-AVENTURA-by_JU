@@ -1,0 +1,42 @@
+main {
+    text-align: center;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+body {
+    background-image: url("img/fundo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 220%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgba(82, 20, 20, 0.763);
+    font-family: "Amatic SC", sans-serif;
+    color: white;
+    font-size: 100%
+}
+
+img {
+    max-width: 75%;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+.p3 {
+    color: rgb(224, 1, 1);
+}
